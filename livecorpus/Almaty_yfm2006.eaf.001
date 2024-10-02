@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2024-10-02T05:41:54+03:00"
+    FORMAT="3.0" VERSION="3.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
+        <MEDIA_DESCRIPTOR
+            MEDIA_URL="file:///C:/Users/mulyu/Downloads/Almaty_yfm2006.mp3"
+            MIME_TYPE="audio/*" RELATIVE_MEDIA_URL="./Almaty_yfm2006.mp3"/>
+        <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:eca337cb-5c6e-43ca-9a01-a1dbde179b80</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">17</PROPERTY>
+    </HEADER>
+    <TIME_ORDER>
+        <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="1082482"/>
+        <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="1090636"/>
+        <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="1091009"/>
+        <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="1091200"/>
+        <TIME_SLOT TIME_SLOT_ID="ts5" TIME_VALUE="1092000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts6" TIME_VALUE="1096518"/>
+        <TIME_SLOT TIME_SLOT_ID="ts7" TIME_VALUE="1097209"/>
+        <TIME_SLOT TIME_SLOT_ID="ts8" TIME_VALUE="1098073"/>
+        <TIME_SLOT TIME_SLOT_ID="ts9" TIME_VALUE="1100000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts10" TIME_VALUE="1100409"/>
+        <TIME_SLOT TIME_SLOT_ID="ts11" TIME_VALUE="1100555"/>
+        <TIME_SLOT TIME_SLOT_ID="ts12" TIME_VALUE="1107009"/>
+        <TIME_SLOT TIME_SLOT_ID="ts13" TIME_VALUE="1108000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts14" TIME_VALUE="1112082"/>
+        <TIME_SLOT TIME_SLOT_ID="ts15" TIME_VALUE="1114000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts16" TIME_VALUE="1116709"/>
+        <TIME_SLOT TIME_SLOT_ID="ts17" TIME_VALUE="1116800"/>
+        <TIME_SLOT TIME_SLOT_ID="ts18" TIME_VALUE="1117391"/>
+    </TIME_ORDER>
+    <TIER ANNOTATOR="Yula77" DEFAULT_LOCALE="ru"
+        LINGUISTIC_TYPE_REF="utterance" PARTICIPANT="@yfm2006f" TIER_ID="@yfm2006f">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a5"
+                TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
+                <ANNOTATION_VALUE>Ии / большая / часть населения действительно / а занимается м хозяйством </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a8"
+                TIME_SLOT_REF1="ts4" TIME_SLOT_REF2="ts10">
+                <ANNOTATION_VALUE>насколько мне известно крупнейшие аа / способы как / катализаторы экономики в Камбодже это туризм </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a9"
+                TIME_SLOT_REF1="ts11" TIME_SLOT_REF2="ts17">
+                <ANNOTATION_VALUE>то есть Анкор Ват и другие храмы / из храмового комплекса / приносят э / э доход / большой для страны / и производство выращивание фруктов / риса насколько мне известно / вот</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER ANNOTATOR="Yula77" DEFAULT_LOCALE="ru"
+        LINGUISTIC_TYPE_REF="gesture" PARTICIPANT="@yfm2006f" TIER_ID="nonverbal_yfm">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a14"
+                TIME_SLOT_REF1="ts3" TIME_SLOT_REF2="ts5">
+                <ANNOTATION_VALUE>#нахмурилась#</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a12"
+                TIME_SLOT_REF1="ts6" TIME_SLOT_REF2="ts7">
+                <ANNOTATION_VALUE>#смешок#</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a15"
+                TIME_SLOT_REF1="ts8" TIME_SLOT_REF2="ts9">
+                <ANNOTATION_VALUE>#вращает ладонями#</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a16"
+                TIME_SLOT_REF1="ts12" TIME_SLOT_REF2="ts13">
+                <ANNOTATION_VALUE>#поправила волосы#</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a17"
+                TIME_SLOT_REF1="ts14" TIME_SLOT_REF2="ts15">
+                <ANNOTATION_VALUE>#дергает рукой#</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a13"
+                TIME_SLOT_REF1="ts16" TIME_SLOT_REF2="ts18">
+                <ANNOTATION_VALUE>#вздох#</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false"
+        LINGUISTIC_TYPE_ID="utterance" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false"
+        LINGUISTIC_TYPE_ID="gesture" TIME_ALIGNABLE="true"/>
+    <LOCALE COUNTRY_CODE="RU" LANGUAGE_CODE="ru"/>
+    <CONSTRAINT
+        DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT
+        DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT
+        DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+</ANNOTATION_DOCUMENT>
